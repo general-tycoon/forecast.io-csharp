@@ -95,6 +95,8 @@ namespace ForecastIO
         public string summary { get; set; }
         [DataMember]
         public string icon { get; set; }
+		[DataMember]
+		public float precipAccumulation { get; set; }
         [DataMember]
         public float precipIntensity { get; set; }
         [DataMember]
